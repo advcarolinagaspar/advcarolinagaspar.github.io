@@ -1,0 +1,21 @@
+---
+layout: default
+title: Artigos sobre Direito de Família e Sucessões
+description: Artigos semanais da advogada Carolina Gaspar explicando divórcio, pensão, guarda, inventário e planejamento sucessório em linguagem simples.
+permalink: /artigos/
+---
+
+<section class="secao">
+  <p class="rotulo">Blog</p>
+  <h2>Artigos semanais</h2>
+  <p class="secao-intro">Direito de família explicado em linguagem simples. Um artigo novo toda semana.</p>
+  <div class="lista-artigos">
+    {% for post in site.posts %}
+    <a class="item-artigo" href="{{ post.url | relative_url }}">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.resumo | default: post.excerpt | strip_html | truncate: 160 }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>

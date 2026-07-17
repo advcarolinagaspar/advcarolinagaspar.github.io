@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="post">
+  <header>
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d de %B de %Y" }}</time>
+    <h1>{{ page.title }}</h1>
+    {% if page.resumo %}<p class="post-resumo">{{ page.resumo }}</p>{% endif %}
+  </header>
+
+  <div class="post-conteudo">
+    {{ content }}
+  </div>
+
+  <div class="autora">
+    <img src="{{ '/assets/img/carolina-retrato.jpg' | relative_url }}" alt="Carolina Gaspar, advogada de família e sucessões">
+    <div>
+      <b>Carolina Gaspar</b> — Advogada (OAB/SP 405.804)
+      <p>Especialista em Direito das Famílias e Sucessões. Atendimento em Americana/SP e on-line para todo o Brasil.</p>
+    </div>
+  </div>
+
+  <div class="post-cta">
+    <p>Este artigo é informativo e não substitui a análise do seu caso concreto. Se você vive uma situação parecida, converse comigo:</p>
+    <a class="btn btn-cheio" style="background:var(--vinho)" href="https://wa.me/5519983169144?text=Ol%C3%A1%2C%20Dra.%20Carolina!%20Li%20o%20artigo%20%22{{ page.title | url_encode }}%22%20e%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o.">Falar no WhatsApp</a>
+  </div>
+</article>

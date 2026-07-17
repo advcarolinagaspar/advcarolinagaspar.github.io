@@ -1,0 +1,29 @@
+title: Carolina Gaspar — Advocacia de Famílias e Sucessões
+description: >-
+  Advogada de família e sucessões em Americana/SP (OAB/SP 405.804), com atendimento
+  on-line em todo o Brasil. Divórcio, pensão alimentícia, guarda, inventário,
+  contratos de relacionamento e planejamento sucessório, com escuta e negociação.
+url: "https://advcarolinagaspar.github.io"
+lang: pt-BR
+author: Carolina Gaspar
+twitter:
+  card: summary_large_image
+logo: /assets/img/favicon.png
+
+permalink: /artigos/:title/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Carolina Gaspar
