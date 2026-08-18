@@ -1,6 +1,6 @@
 ---
 title: "Posso doar um imóvel de cada vez para os meus filhos e pagar menos imposto?"
-description: "A estratégia de doar aos poucos para cair na alíquota menor mudou em 2026. Entenda a nova regra do ITCMD e o que ainda funciona no planejamento sucessório."
+subtitle: "A estratégia de doar aos poucos para cair na alíquota menor mudou em 2026. Entenda a nova regra do ITCMD e o que ainda funciona no planejamento sucessório."
 date: 2026-08-18
 categories: [Sucessões, Planejamento Patrimonial]
 tags: [ITCMD, doação de imóveis, planejamento sucessório, herança, inventário]
